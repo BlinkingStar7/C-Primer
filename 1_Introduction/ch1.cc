@@ -8,6 +8,7 @@ struct A {
 struct B {
 	int val;
 	explicit operator bool() const {
+		cout << "explicit" << endl;
 		return val == 0;
 	}
 
@@ -47,4 +48,5 @@ int main() {
 	if (bb)
 		;
 	return 0;
+
 }

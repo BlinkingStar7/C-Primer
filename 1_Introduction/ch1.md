@@ -16,10 +16,10 @@
 	if (A)	// Compile error
 		do_something;
 	```
+	* return value of `cin >> something` is leftside of operator
 	* iostream class has converting function (bool operator)
 	* check validity of stream -> return 0 or 1
 
-	<blockquote>
 * **[Safe bool idiom](http://www.artima.com/cppsource/safebool.html)**
 	* Simply convert to bool can trigger unintended error
 	```c++
@@ -31,7 +31,6 @@
 	```
 	* Various technique can be used to settle down this problem.
 	* However from C++11, you can use explicit operator
-	</blockquote>
 
 
 
