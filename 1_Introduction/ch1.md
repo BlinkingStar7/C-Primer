@@ -20,6 +20,7 @@
 	* iostream class has converting function (bool operator)
 	* check validity of stream -> return 0 or 1
 
+>
 * **[Safe bool idiom](http://www.artima.com/cppsource/safebool.html)**
 	* Simply convert to bool can trigger unintended error
 	```c++
